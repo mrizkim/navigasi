@@ -1,0 +1,115 @@
+body {
+  background-image: url("elixer_background.jpg");
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+#main-container {
+  width: 100%;
+  height: 100%;
+  /* background: url("elixer_background.jpg") no-repeat fixed center; */
+  background-size: 100% 100%;
+  position: fixed;
+}
+
+#page-container {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+#index-logo-container {
+  position: absolute;
+  top: 11vh;
+  left: calc(50% - 20vh);
+  width: 40vh;
+  text-align: center;
+}
+
+#index-logo {
+  width: 27vh;
+}
+
+#index-logo-text {
+  color: #ffa500;
+  padding-top: 1px;
+  font-size: 2vh;
+}
+#index-main-button {
+  background: url(elixer_homepic.svg) no-repeat fixed center;
+  background-size: 36vh;
+  z-index: 2;
+}
+
+#index-main-button {
+  background-size: 33vh;
+  width: 44vh;
+  height: 40vh;
+  top: 31%;
+  left: calc(50% - 22vh);
+  position: absolute;
+}
+.index-start-button {
+  width: 40vh;
+  height: 40vh;
+  left: calc(50% - 20vh);
+  position: absolute;
+}
+
+#index-about-button {
+  left: calc(50% - 43vh);
+  opacity: 0;
+}
+
+#index-about-text {
+  position: absolute;
+  top: calc(50% - 2.7vh);
+  right: calc(50% + 8vh);
+  z-index: -1;
+  width: 14vh;
+  display: none;
+}
+
+#index-about-button:hover #index-about-text {
+  display: block;
+}
+
+#index-contact-button {
+  left: calc(50% - 9.7vh);
+  top: calc(50% + 16vh);
+  width: 10vh;
+  height: 10vh;
+  opacity: 0;
+}
+
+#index-contact-button:hover #index-contact-text {
+  display: block;
+}
+
+#index-contact-text {
+  position: absolute;
+  top: calc(50% - 5vh);
+  right: calc(50% - 14vh);
+  z-index: -1;
+  width: 19vh;
+  display: none;
+}
+
+#index-portfolio-button {
+  left: calc(50% + 16vh);
+  top: calc(50% - 9vh);
+  opacity: 0;
+}
+
+#index-portfolio-button:hover #index-portfolio-text {
+  display: block;
+}
+
+#index-portfolio-text {
+  position: absolute;
+  top: calc(50% - 3.1vh);
+  right: calc(50% - 29vh);
+  z-index: -1;
+  width: 14vh;
+  display: none;
+}
